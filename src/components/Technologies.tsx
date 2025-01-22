@@ -1,5 +1,5 @@
 import type { TechnologyCategory } from '../types';
-import mapImage from '../../dist/assets/images/industry.png';
+import industry from '../../dist/assets/images/industry.png';
 
 const technologies: TechnologyCategory[] = [
   {
@@ -64,7 +64,7 @@ export default function Technologies() {
           {/* Columna de imagen */}
           <div className="flex justify-center">
             <img
-              src={mapImage}
+              src={industry}
               alt="Technology showcase"
               className="rounded-2xl 
                max-w-full"
