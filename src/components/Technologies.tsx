@@ -1,5 +1,5 @@
 import type { TechnologyCategory } from '../types';
-import industry from '../../dist/assets/images/industry.png';
+import industry from '../../public/industry-ll7qH9mI.png';
 
 const technologies: TechnologyCategory[] = [
   {

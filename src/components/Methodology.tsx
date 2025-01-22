@@ -1,5 +1,5 @@
 import { Code2, GitBranch, Rocket, TestTube } from 'lucide-react';
-import method from '../../dist/assets/images/method.png';
+import method from '../../public/method-CtjnN_Ou.png';
 
 export default function Methodology() {
   return (
