@@ -1,5 +1,5 @@
 import type { Location } from '../types';
-import mapImage from '../../dist/assets/images/map.png';
+import mapImage from '../../dist/assets/images/map-CO8lUlNa.png';
 
 const locations: Location[] = [
   {
