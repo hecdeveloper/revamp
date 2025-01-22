@@ -35,10 +35,10 @@ export default function Technologies() {
   return (
     <section id="technologies" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Nueva sección hero con texto e imagen */}
-        <div className="flex flex-col lg:flex-row items-center mb-16">
-          {/* Texto del encabezado */}
-          <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
+        {/* Diseño en dos columnas */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 mb-16">
+          {/* Columna de texto */}
+          <div className="text-center lg:text-left">
             <h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-6">
               Let’s create <br /> something incredible.
             </h1>
@@ -61,18 +61,19 @@ export default function Technologies() {
             </div>
           </div>
 
-          {/* Imagen */}
-          <div className="lg:w-1/2 flex justify-center">
+          {/* Columna de imagen */}
+          <div className="flex justify-center">
             <img
               src={mapImage}
               alt="Technology showcase"
-              className="rounded-2xl shadow-lg max-w-full"
+              className="rounded-2xl 
+               max-w-full"
             />
           </div>
         </div>
 
         {/* Introducción a tecnologías */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 pt-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Technology Capabilities
           </h2>
@@ -84,7 +85,10 @@ export default function Technologies() {
         {/* Lista de tecnologías */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {technologies.map((category) => (
-            <div key={category.title} className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div
+              key={category.title}
+              className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
+            >
               <h3 className="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
                 {category.title}
               </h3>

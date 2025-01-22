@@ -1,4 +1,5 @@
 import { Code2, GitBranch, Rocket, TestTube } from 'lucide-react';
+import method from '../../dist/assets/images/method.png';
 
 export default function Methodology() {
   return (
@@ -15,12 +16,12 @@ export default function Methodology() {
 
         {/* Main Process Flow */}
         <div className="mb-16">
-          <img 
-            src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80"
-            alt="Development Process"
-            className="w-full rounded-xl shadow-lg mb-8"
+          <img
+           src={method}
+            alt="Technology showcase"
+            className="w-full rounded-xl mb-8"
           />
-          
+
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
               {
@@ -56,7 +57,7 @@ export default function Methodology() {
         {/* Sprint Process */}
         <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
           <h3 className="text-2xl font-bold mb-8 text-center">Sprint Process</h3>
-          
+
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
