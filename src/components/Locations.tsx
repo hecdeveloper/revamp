@@ -46,7 +46,7 @@ export default function Locations() {
           
           <div className="space-y-6">
             <p className="text-lg text-gray-700">
-              Zero Copy Labs primarily delivers engineering services from our development center in Puerto Vallarta, Mexico, a 3 – 4 hour flight from much of the US.
+              Devseo primarily delivers engineering services from our development center in Puerto Vallarta, Mexico, a 3 – 4 hour flight from much of the US.
             </p>
             
             <div className="space-y-4">

@@ -11,7 +11,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <span className="text-4xl font-bold text-blue-600">Z</span>
-              <span className="ml-2 text-xl font-semibold">Zero Copy Labs</span>
+              <span className="ml-2 text-xl font-semibold">Devseo</span>
             </a>
           </div>
           
@@ -27,7 +27,7 @@ export default function Navbar() {
                  className="text-gray-700 hover:text-blue-600">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:hello@zerocopylabs.com" 
+              <a href="mailto:devseo.com" 
                  className="text-gray-700 hover:text-blue-600">
                 <Mail size={20} />
               </a>
