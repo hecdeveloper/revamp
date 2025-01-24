@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <span className="text-4xl font-bold text-blue-600">Z</span>
+              <span className="text-4xl font-bold text-blue-600">D</span>
               <span className="ml-2 text-xl font-semibold">Devseo</span>
             </a>
           </div>
